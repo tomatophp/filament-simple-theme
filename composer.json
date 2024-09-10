@@ -1,0 +1,40 @@
+{
+    "name": "tomatophp/filament-simple-theme",
+    "type": "library",
+    "description": "A simple theme for FilamentPHP",
+    "keywords": [
+        "php",
+        "laravel",
+        "filament",
+        "filament-theme",
+        "filament-theme-simple"
+    ],
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "TomatoPHP\\FilamentSimpleTheme\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Tests\\": "tests/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "TomatoPHP\\FilamentSimpleTheme\\FilamentSimpleThemeServiceProvider"
+            ]
+        }
+    },
+    "authors": [
+        {
+            "name": "Fady Mondy",
+            "email": "info@3x1.io"
+        }
+    ],
+    "require": {
+        "php": "^8.1",
+        "tomatophp/console-helpers": "^1.1"
+    }
+}
