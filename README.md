@@ -13,6 +13,8 @@ A simple theme for FilamentPHP
 ![Dashboard](https://raw.githubusercontent.com/tomatophp/filament-simple-theme/master/arts/dashboard.png)
 ![User Menu](https://raw.githubusercontent.com/tomatophp/filament-simple-theme/master/arts/user-menu.png)
 ![Resource](https://raw.githubusercontent.com/tomatophp/filament-simple-theme/master/arts/resource.png)
+![Dark Dashboard](https://raw.githubusercontent.com/tomatophp/filament-simple-theme/master/arts/dark-dashboard.png)
+![Dark Resource](https://raw.githubusercontent.com/tomatophp/filament-simple-theme/master/arts/dark-resource.png)
 
 ## Installation
 
@@ -63,26 +65,7 @@ you can publish migrations file by use this command
 php artisan vendor:publish --tag="filament-simple-theme-migrations"
 ```
 
-## Support
+## Other Filament Packages
 
-you can join our discord server to get support [TomatoPHP](https://discord.gg/Xqmt35Uh)
+Checkout our [Awesome TomatoPHP](https://github.com/tomatophp/awesome)
 
-## Docs
-
-you can check docs of this package on [Docs](https://docs.tomatophp.com/plugins/laravel-package-generator)
-
-## Changelog
-
-Please see [CHANGELOG](CHANGELOG.md) for more information on what has changed recently.
-
-## Security
-
-Please see [SECURITY](SECURITY.md) for more information about security.
-
-## Credits
-
-- [Tomatophp](mailto:info@3x1.io)
-
-## License
-
-The MIT License (MIT). Please see [License File](LICENSE.md) for more information.
