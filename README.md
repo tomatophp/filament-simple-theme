@@ -31,6 +31,12 @@ now run npm
 npm i && npm run dev
 ```
 
+finally register the plugin on `/app/Providers/Filament/AdminPanelProvider.php`
+
+```php
+->plugin(\TomatoPHP\FilamentSimpleTheme\FilamentSimpleThemePlugin::make())
+```
+
 ## Publish Assets
 
 you can publish config file by use this command
