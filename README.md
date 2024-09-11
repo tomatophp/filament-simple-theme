@@ -6,7 +6,7 @@
 [![License](https://poser.pugx.org/tomatophp/filament-simple-theme/license.svg)](https://packagist.org/packages/tomatophp/filament-simple-theme)
 [![Downloads](https://poser.pugx.org/tomatophp/filament-simple-theme/d/total.svg)](https://packagist.org/packages/tomatophp/filament-simple-theme)
 
-A simple theme for FilamentPHP
+A simple theme for FilamentPHP with custom user menu in sidebar
 
 ## Screenshots
 

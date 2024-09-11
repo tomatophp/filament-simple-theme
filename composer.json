@@ -1,7 +1,7 @@
 {
     "name": "tomatophp/filament-simple-theme",
     "type": "library",
-    "description": "A simple theme for FilamentPHP",
+    "description": "A simple theme for FilamentPHP with custom user menu in sidebar",
     "keywords": [
         "php",
         "laravel",
