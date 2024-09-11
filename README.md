@@ -13,8 +13,8 @@ A simple theme for FilamentPHP
 ![Dashboard](https://raw.githubusercontent.com/tomatophp/filament-simple-theme/master/arts/dashboard.png)
 ![User Menu](https://raw.githubusercontent.com/tomatophp/filament-simple-theme/master/arts/user-menu.png)
 ![Resource](https://raw.githubusercontent.com/tomatophp/filament-simple-theme/master/arts/resource.png)
-![Dark Dashboard](https://raw.githubusercontent.com/tomatophp/filament-simple-theme/master/arts/dark-dashboard.png)
-![Dark Resource](https://raw.githubusercontent.com/tomatophp/filament-simple-theme/master/arts/dark-resource.png)
+![Dark Dashboard](https://raw.githubusercontent.com/tomatophp/filament-simple-theme/master/arts/dashboard-dark.png)
+![Dark Resource](https://raw.githubusercontent.com/tomatophp/filament-simple-theme/master/arts/resource-dark.png)
 
 ## Installation
 
