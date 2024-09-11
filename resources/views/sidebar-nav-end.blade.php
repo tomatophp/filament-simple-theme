@@ -113,7 +113,19 @@
 </x-filament::dropdown>
 
 <script>
-    document.querySelector('.fi-header .fi-breadcrumbs').remove();
-    document.querySelector('.fi-header .fi-header-heading').remove();
-    document.querySelector('.fi-user-menu').remove();
+    let breadcrumb = document.querySelector('.fi-header .fi-breadcrumbs');
+    let heading = document.querySelector('.fi-header .fi-header-heading');
+    let userMenu = document.querySelector('.fi-user-menu');
+
+    if (breadcrumb) {
+        breadcrumb.remove();
+    }
+
+    if (heading) {
+        heading.remove();
+    }
+
+    if (userMenu) {
+        userMenu.remove();
+    }
 </script>
