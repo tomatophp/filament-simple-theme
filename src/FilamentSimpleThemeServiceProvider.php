@@ -55,7 +55,7 @@ class FilamentSimpleThemeServiceProvider extends ServiceProvider
         $this->loadRoutesFrom(__DIR__.'/../routes/web.php');
 
         Livewire::component('topbar-start', TopBarStart::class);
-        Livewire::component('topbar-end', TopBarEnd::class);
+
     }
 
     public function boot(): void
@@ -68,11 +68,6 @@ class FilamentSimpleThemeServiceProvider extends ServiceProvider
         FilamentView::registerRenderHook(
             PanelsRenderHook::TOPBAR_START,
             fn() => Blade::render('@livewire(TomatoPHP\FilamentSimpleTheme\Livewire\TopBarStart::class)')
-        );
-
-        FilamentView::registerRenderHook(
-            PanelsRenderHook::TOPBAR_END,
-            fn() => Blade::render('@livewire(TomatoPHP\FilamentSimpleTheme\Livewire\TopBarEnd::class)')
         );
     }
 }

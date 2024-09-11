@@ -112,3 +112,8 @@
     </x-filament::dropdown.list>
 </x-filament::dropdown>
 
+<script>
+    document.querySelector('.fi-header .fi-breadcrumbs').remove();
+    document.querySelector('.fi-header .fi-header-heading').remove();
+    document.querySelector('.fi-user-menu').remove();
+</script>

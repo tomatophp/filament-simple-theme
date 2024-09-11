@@ -1,6 +1,7 @@
-@import '/vendor/filament/filament/resources/css/theme.css';
+@import '../../../../filament/filament/resources/css/theme.css';
 
 @config 'tailwind.config.js';
+
 
 
 .fi-body {
@@ -24,7 +25,11 @@
 }
 
 .fi-sidebar-nav {
-    @apply bg-gray-50 dark:bg-gray-900 px-3 gap-6 pb-8 pt-4;
+    @apply bg-gray-50 dark:bg-gray-900 px-3 gap-6 pb-8 pt-4 scrollbar scrollbar-thumb-gray-200 hover:scrollbar-thumb-gray-400 dark:scrollbar-thumb-gray-700 scrollbar-track-transparent;
+}
+
+.fi-ta-content {
+    @apply scrollbar scrollbar-thumb-gray-200 dark:scrollbar-thumb-gray-700 scrollbar-track-transparent;
 }
 
 .fi-user-menu {
@@ -64,7 +69,7 @@
 }
 
 .fi-header .shrink-0 {
-   @apply sm:mt-0;
+    @apply sm:mt-0;
 }
 
 .fi-header .fi-breadcrumbs {
@@ -76,12 +81,12 @@
 }
 
 .fi-header .fi-ac {
-   @apply px-6;
+    @apply px-6;
 }
 
 
 .fi-main-ctn {
-    @apply bg-white dark:bg-gray-800 min-h-full ml-2 mr-2 rtl:sm:mr-0 rtl:ml-2 sm:ml-0 mt-2 mb-2 rtl:md:ml-4 md:mr-4 md:mt-4 md:mb-4 overflow-hidden border border-gray-100 dark:border-gray-700 rounded-3xl shadow-sm;
+    @apply bg-white dark:bg-gray-800 min-h-full ml-2 mr-2 rtl:sm:mr-0 rtl:ml-2 sm:ml-0 mt-2 mb-2 rtl:md:ml-4 md:mr-4 md:mt-4 md:mb-4 overflow-hidden border border-gray-100 dark:border-gray-700 rounded-2xl shadow-sm;
 }
 
 .fi-sidebar-item svg {
@@ -93,7 +98,7 @@
 }
 
 .fi-sidebar-item span {
-    @apply text-gray-800 font-normal text-xs;
+    @apply text-gray-800 dark:text-gray-200 font-normal text-xs;
 }
 
 .fi-sidebar-item-active svg {
@@ -106,7 +111,7 @@
 
 
 .fi-sidebar-item-active span {
-    @apply text-gray-800 font-medium text-xs;
+    @apply text-gray-800 dark:text-gray-200  font-medium text-xs;
 }
 
 .fi-main{
@@ -118,10 +123,16 @@
     @apply py-0 px-0 gap-y-0;
 }
 
-.fi-ta-ctn  {
-  @apply border-none shadow-none rounded-none
+
+.fi-page > section > div {
+    @apply p-6;
 }
 
-.fi-form {
-    @apply p-6
+.fi-global-search {
+    @apply w-full;
 }
+
+.fi-global-search-field .fi-input-wrp {
+    @apply w-full;
+}
+

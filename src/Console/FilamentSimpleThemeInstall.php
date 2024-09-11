@@ -41,6 +41,7 @@ class FilamentSimpleThemeInstall extends Command
         $this->info('Publish Vendor Assets');
         $this->copyFile(__DIR__ . '/../../publish/vite.config.js', base_path('vite.config.js'));
         $this->copyFile(__DIR__ . '/../../publish/package.json', base_path('package.json'));
+        $this->copyFile(__DIR__ . '/../../publish/postcss.config.js', base_path('postcss.config.js'));
         $this->artisanCommand(["filament:optimize"]);
         $this->info('Filament Simple Theme installed successfully. please run npm install && npm run dev');
     }
