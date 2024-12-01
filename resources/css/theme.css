@@ -121,7 +121,7 @@
 }
 
 
-.fi-resource-list-records-page > section > div {
+.fi-page > section > div {
     @apply px-6;
 }
 
